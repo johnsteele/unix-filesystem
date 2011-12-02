@@ -2,7 +2,7 @@
 public class Superblock {
 
 	/**
-	 * The number of disk blocks.
+	 * The number of disk blocks. 
 	 */
 	public int totalBlocks; 
 	

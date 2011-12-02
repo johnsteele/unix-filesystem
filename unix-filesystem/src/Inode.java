@@ -8,7 +8,7 @@ public class Inode {
 	  public short count;                            // # file-table entries pointing to this
 	  public short flag;                             // 0 = unused, 1 = used, ...
 	  public short direct[] = new short[directSize]; // direct pointers
-	  public short indirect;                         // a indirect pointer
+	  public short indirect;                          // a indirect pointer
 
 	  Inode() {                                      // a default constructor
 	    length = 0;
